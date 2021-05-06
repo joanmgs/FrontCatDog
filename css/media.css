@@ -1,0 +1,39 @@
+@media (max-width: 600px) {
+    
+    /* Header */
+    header nav {
+        display: none;
+    }
+    header div:nth-child(3) ul {
+        display: none;
+    }
+    header div:nth-child(3)::after {
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900;
+        content: '\f0c9';
+    }
+
+    /* Main */
+    main {
+        flex-direction: column;
+        gap: 40px;
+        height: 659px;
+        min-height: calc(100vh - 82px - 165px);  
+    }
+    main div {
+        width: 60%;
+    }
+
+    /* Footer */
+    .footer-top {
+        height: 145px;
+        flex-direction: column;
+        gap: 0;
+    }
+    .text-subscribe {
+        margin-bottom: 13px;
+    }
+    .subscribe-bar {
+        width: 57%;
+    }
+}

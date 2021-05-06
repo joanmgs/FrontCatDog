@@ -1,0 +1,23 @@
+aside {
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+}
+aside div:nth-child(1) {
+    margin-left: 3%;
+}
+aside div:nth-child(2) {
+    margin-right: 3%;
+}
+aside div form {
+    display: flex;
+}
+aside div form select {
+    border: transparent;
+    background-color: transparent;
+    color: #F3F3F3;
+}

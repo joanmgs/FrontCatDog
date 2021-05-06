@@ -1,0 +1,19 @@
+/* Estructura acorde al HTML */
+
+/* Estilos generales */
+@import url('./general.css');
+
+/* Aside */
+@import url('./aside.css');
+
+/* Header */
+@import url('./header.css');
+
+/* Main */
+@import url('./main.css');
+
+/* Footer */
+@import url('./footer.css');
+
+/* Media Query */
+@import url('./media.css');

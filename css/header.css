@@ -1,0 +1,66 @@
+header {
+    height: 62px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #F0A83E;
+}
+header div:nth-child(1) {
+    margin-left: 3%;
+}
+header div:nth-child(3) {
+    margin-right: 3%;
+}
+
+/* ------ Logo ------ */
+header div h1 {
+    display: flex;
+    align-items: center;
+    color: #3C2313;
+    font-weight: 700;
+    font-size: 20px;
+}
+header div h1 span {
+    color: #FFFFFF;
+}
+header div h1 img {
+    height: 14.38px;
+    margin: 0px 2.32px;
+}
+
+/* ------ Navigation Bar ------ */
+header nav ul {
+    display: flex;
+    gap: 1.5vw;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+header nav ul li a:visited {
+    color: #FFFFFF;
+}
+header nav ul li::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f1b0';
+}
+
+/* ------ Icons ------ */
+header div ul {
+    display: flex;
+    justify-content: center;
+    gap: 1.1vw;
+    font-size: 18px;
+}
+.user::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f007';
+}
+.shoppig-car::before {
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    content: '\f07a';
+}
